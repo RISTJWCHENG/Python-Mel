@@ -1,0 +1,9 @@
+import importlib
+
+import CFX.Search_And_BlendShape_For_Curves.ui_search_and_blendShape_for_curves as ui_search_and_blendShape_for_curves
+import CFX.Search_And_BlendShape_For_Curves.cm_search_and_blendShape_for_curves as cm_search_and_blendShape_for_curves
+
+importlib.reload(ui_search_and_blendShape_for_curves)
+importlib.reload(cm_search_and_blendShape_for_curves)
+
+ui_search_and_blendShape_for_curves.UI_SearchAndBlendShapeForCurves.ui_createWindow(position='default')
